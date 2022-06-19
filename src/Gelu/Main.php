@@ -25,9 +25,6 @@ class Main extends PluginBase implements Listener {
 
 	public function onEnable(): void{
 		$this->getLogger()->info("Plugin Ligado.");
-	@mkdir($this->getDataFolder());
-		$this->saveResource("config.yml");
-		$this->editCfg = (new Config($this->getDataFolder()."config.yml", Config::YAML))->getAll();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 	public function onCommand(CommandSender $player, Command $cmd, string $label, array $args) : bool {
@@ -52,7 +49,7 @@ class Main extends PluginBase implements Listener {
 				return;
 			}
 			$player->sendMessage("§asuggestion sent.");
-			$webhook = new Webhook("{$this->editCfg["webhook"]}");
+			$webhook = new Webhook("https://discord.com/api/webhooks/987522776782995476/fCs_HvPhKs61uB4b49XQSLgQXAwJKkBOxydU7EXVlw66SzJtWuKuGfVeRWtrocsUn47q");
 			$embed = new Embed();
 			$msg = new Message();
 			$embed->setTitle("NEW SUGGESTION");
