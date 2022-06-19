@@ -1,0 +1,12 @@
+name: Gelu_Suggest
+author: Gelumaxon
+main: Gelu\Main
+api: 4.0.0
+version: 0.2(beta)
+commands: 
+ suggest:
+  description: Suggestion plugin with webhook
+  permission: suggest.use
+permissions:
+ suggest.use:
+  default: true
