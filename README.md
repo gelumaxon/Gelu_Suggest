@@ -12,7 +12,7 @@ PocketMine-MP API 4.0.0
 
 ## Overview
 
-**BlockPerms**: The plugin consists of giving `/suggest` in game, filling in the fields to send the suggestion via webhook in the channel where the webhook bot was registered
+**Gelu_Suggest**: The plugin consists of giving `/suggest` in game, filling in the fields to send the suggestion via webhook in the channel where the webhook bot was registered
 
 **Gelumaxon Website:** https://github.com/gelumaxon
 
