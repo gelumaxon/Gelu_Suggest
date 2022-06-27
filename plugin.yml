@@ -1,8 +1,8 @@
 name: Gelu_Suggest
 author: Gelumaxon
-main: Gelu\Main
+main: gelumaxon\GeluSuggest\Main
 api: 4.0.0
-version: 0.2(beta)
+version: 1.4
 commands: 
  suggest:
   description: Suggestion plugin with webhook
